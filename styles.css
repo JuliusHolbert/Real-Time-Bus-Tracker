@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.map-overlay {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
+.marker {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #000000; 
+    border: none;
+    color:#ffffff;
+    border-radius: 15px;
+    font-size: 1.5em;
+    padding: 8px 16px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.mapboxgl-popup {
+    max-width: 200px;
+  }
+  
+  .mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
